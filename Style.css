@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    text-align: end;
+
+    
+    background-image: url(images/banner/banner3.png);
+    background-repeat:no-repeat;
+   background-position: 100%;
+    background-size: cover;
+    height:800px;
+ 
+}
+.header1 h1{
+    align-items: center;
+    text-align: end;
+    
+
+}
+   
+   
