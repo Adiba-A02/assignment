@@ -57,6 +57,63 @@ main{
 .failures{
     width: 320px;
     margin-top: 200px;
-    margin-right: 180px;
+    margin-right: 350px;
     
+}
+.failures ul{
+    list-style: none;
+}
+.failures ul li{
+    margin-bottom: 10px;
+}
+.failures p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.person-image img{
+  margin-left: 350px;
+  height:600px;
+  margin-top: 25px;
+}
+.myplans{
+    text-align: center;
+}
+.heading{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+.plansinbrief{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plansinbrief h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.plansinbrief h5{
+    font-size: 18px;
+    color: grey;
+}
+.banner{
+ 
+    background-image: url(images/watch.png);
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 180px;
+    margin-right: 220px;
+    align-items: center;
+
+    
+}
+.bannertext h1{
+   color: white;
+}
+.bannertext{
+    text-align: start;
+    align-items: center;
 }
