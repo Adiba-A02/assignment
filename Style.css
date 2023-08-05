@@ -55,9 +55,10 @@ main{
 }
 
 .failures{
-    width: 320px;
-    margin-top: 200px;
+    width: 500px;
+    margin-top: 180px;
     margin-right: 350px;
+    margin-left: 60px;
     
 }
 .failures ul{
@@ -69,10 +70,11 @@ main{
 .failures p{
     margin-top: 20px;
     margin-bottom: 10px;
+    width: 400px;
 
 }
 .person-image img{
-  margin-left: 350px;
+  margin-left: 250px;
   height:600px;
   margin-top: 25px;
 }
@@ -103,17 +105,106 @@ main{
     height: 400px;
     background-repeat: no-repeat;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     margin-left: 180px;
     margin-right: 220px;
     align-items: center;
-
+    display: flex;
+    justify-content: center; 
+  
     
 }
+
 .bannertext h1{
    color: white;
+   font-size: 30px;
 }
 .bannertext{
-    text-align: start;
-    align-items: center;
+   width: 250px;
+   margin-bottom: 220px;
+   margin-right: 600px;
+}
+.bannertext button{
+    margin-top: 20px;
+    padding: 15px;
+    color: rgb(11, 119, 212);
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+.bannertext button:hover{
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(3, 60, 112);;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+
+}
+footer{
+    background-color: black;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Future{
+    width: 350px;
+    margin-top: 80px;
+    margin-right: 500px;
+}
+.Future h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.Future p{
+    margin-bottom: 20px;
+}
+.Future h5{
+    margin-bottom: 15px;
+}
+
+.images img{
+    margin-left: 10px;
+    
+}
+.Subscribe{
+    
+    margin-top: 80px;
+
+}
+.Subscribe h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+input{
+    padding: 15px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: grey;
+    margin-bottom: 15px;
+
+}
+.Subscribe button{
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(3, 60, 112);;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+
+}
+.Subscribe button:hover{
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(11, 119, 212);
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+
 }
